@@ -1,0 +1,114 @@
+.header {
+height: 100px;
+background-color: #b19cd9;
+}
+
+.header__logo {
+padding: 25px;
+padding-top: 10px;
+}
+
+.header__title {
+color: white;
+font-size: 40px;
+font-family: Calisto MT;
+margin-left: 450px;
+}
+
+.flex {
+background-color:#b19cd9;
+display: flex;
+}
+
+.searchbar {
+align-content: right;
+padding: 10px;
+}
+
+input[type="text"] {
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+padding: 12px 20px 12px 20px;
+}
+
+#button-holder{
+    cursor:pointer;
+    float:right;
+   
+  }
+
+.sidebar {
+width: 20%;
+border-width: 1px;
+border-style: solid;
+border-color: #b19cd9;
+overflow: auto;
+}
+
+.sidebar__category {
+background-color: pink;
+margin-bottom: 1px;
+border-radius: 20px 0px 20px 0px;
+overflow: hidden;
+padding: 15px;
+border: 1px solid;
+display: block;
+}
+
+.sidebar__category:hover{
+background-color: #b19cd9;
+border-top: 3px solid brown;
+margin-bottom: 1px;
+border-radius: 20px 0px 20px 0px;
+overflow: hidden;
+padding: 15px;
+}
+
+.sidebar__news {
+border-radius: 10px 10px 0px 0px;
+margin: 0px 10px 0px 10px;
+background-color: brown;
+text-align: center;
+border-bottom: 1px solid;
+}
+
+#sidebar__card {
+border-radius: 0px 0px 10px 0px;
+margin: 0px 10px 0px 10px;
+padding: 10px 3px 10px 5px;
+overflow: auto;
+max-height: 200px;
+align-content: center;
+background-color:  orange;
+}
+
+#details {
+margin-left: 10px;
+}
+
+.main {
+background-color: #b19cd9;
+width: 80%;
+border-color: #b19cd9; 
+}
+
+.imgfile {
+width:100%;
+position: relative;
+height: 100px;
+display: inline-block;
+}
+
+
+
+.footer {
+background-color: pink;
+border-color: pink;
+height: 200px;
+border-width: 1px;
+border-style: solid;
+font-family: Sans-serif;
+}

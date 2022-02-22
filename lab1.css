@@ -1,0 +1,29 @@
+.main{
+	border:1px outset red;
+	width:550px;
+	height:500px;
+	margin:50px 50px 50px 50px;	
+}
+.main2{
+	border:1px outset yellow;
+	width:525px;
+	margin:11px 0px 0px 11px;
+	height:470px;
+}
+.footer{
+	border:1px outset green;
+	width:525px;
+	margin:380px 0px 0px 0px;
+	height:88px;
+	float:right;	
+}
+.header{
+	border:1px outset red;
+	width:525px;
+	height:60px;
+}
+.aside{
+	border:1px outset black;
+	width:100px;
+	height:317px;
+}
